@@ -3,10 +3,6 @@
 @media screen and (max-width: 576px) {
   /* header related styles */
 
-  /* body {
-    background: #fff;
-  } */
-
   nav {
     flex-direction: column;
     padding-top: 103px;
@@ -21,6 +17,21 @@
   .menu-item-link {
     flex-direction: column;
     gap: 36px;
+  }
+
+  /* banner related styles */
+
+  .banner-container {
+    background-position: 65% 90%;
+    flex-direction: column-reverse;
+    gap: 150px;
+  }
+  .banner-left {
+    margin-bottom: 200px;
+  }
+  .banner-right img {
+    width: 90%;
+    padding: 0px 20px;
   }
 }
 
@@ -40,5 +51,17 @@
   }
   .menu-item-link {
     gap: 50px;
+  }
+
+  /* banner section styles */
+
+  .banner-container {
+    background-position: 50% 88%;
+    background-size: 95%;
+    flex-direction: column-reverse;
+    gap: 200px;
+  }
+  .banner-left {
+    margin-bottom: 200px;
   }
 }
