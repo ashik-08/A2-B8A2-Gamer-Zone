@@ -83,6 +83,22 @@
     top: -120px;
     left: 20px;
   }
+
+  /* footer section styles */
+
+  .footer-container {
+    margin-top: 160px;
+    padding: 25px;
+  }
+  .footer-description {
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    flex-wrap: wrap;
+  }
+  .footer-documents {
+    flex-wrap: wrap;
+  }
 }
 
 /* tablet or medium devices */
@@ -163,5 +179,15 @@
     position: relative;
     top: -220px;
     left: 15px;
+  }
+
+  /* footer section styles */
+
+  .footer-container {
+    margin-top: 200px;
+    padding: 100px 20px;
+  }
+  .footer-description {
+    flex-wrap: wrap;
   }
 }
