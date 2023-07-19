@@ -84,6 +84,13 @@
     left: 20px;
   }
 
+  /* different games related styles */
+
+  .games-container {
+    width: 100%;
+    column-gap: 20px;
+  }
+
   /* footer section styles */
 
   .footer-container {
@@ -179,6 +186,13 @@
     position: relative;
     top: -220px;
     left: 15px;
+  }
+
+  /* different games related styles */
+
+  .games-container {
+    width: 100%;
+    gap: 20px;
   }
 
   /* footer section styles */
