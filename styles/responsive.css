@@ -34,7 +34,7 @@
     padding: 0px 20px;
   }
 
-  /* funny videos section styles */
+  /* funny videos related styles */
 
   .funny-videos-container {
     margin-top: 165px;
@@ -54,6 +54,34 @@
     left: 42px;
     width: 78%;
     height: 75.5%;
+  }
+
+  /* instant play related styles */
+
+  .instant-play-container {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .instant-play-info {
+    margin-left: 0px;
+  }
+  .instant-play-title {
+    text-align: center;
+  }
+  .instant-play-description {
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .instant-play-images .img-1 {
+    width: 70%;
+    margin-left: 65px;
+  }
+  .instant-play-images .img-2 {
+    width: 30%;
+    position: relative;
+    top: -120px;
+    left: 20px;
   }
 }
 
@@ -75,7 +103,7 @@
     gap: 50px;
   }
 
-  /* banner section styles */
+  /* banner related styles */
 
   .banner-container {
     background-position: 50% 88%;
@@ -87,7 +115,7 @@
     margin-bottom: 200px;
   }
 
-  /* funny videos section styles */
+  /* funny videos related styles */
 
   .funny-videos-container {
     margin-top: 165px;
@@ -107,5 +135,33 @@
     left: 210px;
     width: 44%;
     height: 75.5%;
+  }
+
+  /* instant play related styles */
+
+  .instant-play-container {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .instant-play-info {
+    margin-left: 0px;
+  }
+  .instant-play-title {
+    text-align: center;
+  }
+  .instant-play-description {
+    text-align: center;
+    margin: 60px 0px;
+  }
+  .instant-play-images .img-1 {
+    width: 80%;
+    margin-left: 80px;
+  }
+  .instant-play-images .img-2 {
+    width: 40%;
+    position: relative;
+    top: -220px;
+    left: 15px;
   }
 }
