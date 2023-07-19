@@ -34,6 +34,28 @@
     padding: 0px 20px;
   }
 
+  /* we are gamer related styles */
+
+  .we-are-gamer-container {
+    background: #fff;
+  }
+  .we-are-gamer {
+    flex-direction: column;
+    padding: 50px 0px 100px;
+  }
+  .we-are-gamer-details {
+    text-align: center;
+  }
+  .we-are-gamer-img img {
+    width: 100%;
+  }
+  .we-are-gamer-description {
+    margin: 32px 0px 24px;
+  }
+  .we-are-gamer-motto {
+    margin-top: 60px;
+  }
+
   /* funny videos related styles */
 
   .funny-videos-container {
@@ -136,6 +158,26 @@
   }
   .banner-left {
     margin-bottom: 200px;
+  }
+
+  /* we are gamer section styles */
+
+  .we-are-gamer {
+    flex-direction: column;
+    padding: 100px 0px;
+  }
+  .we-are-gamer-details {
+    text-align: center;
+    margin: 30px 0px;
+  }
+  .we-are-gamer-img img {
+    width: 100%;
+  }
+  .we-are-gamer-description {
+    margin: 40px 0px;
+  }
+  .we-are-gamer-motto {
+    margin-top: 80px;
   }
 
   /* funny videos related styles */
