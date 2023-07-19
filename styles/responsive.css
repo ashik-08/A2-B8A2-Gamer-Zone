@@ -33,6 +33,28 @@
     width: 90%;
     padding: 0px 20px;
   }
+
+  /* funny videos section styles */
+
+  .funny-videos-container {
+    margin-top: 165px;
+  }
+  .funny-videos-description {
+    padding: 10px;
+  }
+  .videos-container {
+    flex-direction: column;
+  }
+  .videos-container figcaption {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .video-overlay {
+    top: 0px;
+    left: 42px;
+    width: 78%;
+    height: 75.5%;
+  }
 }
 
 /* tablet or medium devices */
@@ -63,5 +85,27 @@
   }
   .banner-left {
     margin-bottom: 200px;
+  }
+
+  /* funny videos section styles */
+
+  .funny-videos-container {
+    margin-top: 165px;
+  }
+  .funny-videos-description {
+    margin: 50px 0px;
+  }
+  .videos-container {
+    flex-direction: column;
+  }
+  .videos-container figcaption {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .video-overlay {
+    top: 0px;
+    left: 210px;
+    width: 44%;
+    height: 75.5%;
   }
 }

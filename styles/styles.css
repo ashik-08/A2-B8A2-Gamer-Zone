@@ -143,3 +143,84 @@ nav .nav-title {
   position: relative;
   top: 5px;
 }
+
+/* funny videos section styles */
+
+.funny-videos-container {
+  text-align: center;
+  margin-top: 120px;
+}
+.funny-videos-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.funny-videos-container span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.funny-videos-description {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 16px 0px 48px;
+}
+.videos-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.videos-container figcaption {
+  text-align: left;
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.figure-1,
+.figure-2,
+.figure-3,
+.figure-4 {
+  position: relative;
+  display: inline-block;
+}
+
+.video-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 5px solid #ff42a5;
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 80%;
+  opacity: 0;
+  transition: opacity 0.1s;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure-1:hover .video-overlay,
+.figure-2:hover .video-overlay,
+.figure-3:hover .video-overlay,
+.figure-4:hover .video-overlay {
+  opacity: 1;
+}
+
+.video-watch-text {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+}
