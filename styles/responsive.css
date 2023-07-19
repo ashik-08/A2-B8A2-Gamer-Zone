@@ -1,9 +1,44 @@
 /* mobile or smaller devices */
 
 @media screen and (max-width: 576px) {
+  /* header related styles */
+
+  /* body {
+    background: #fff;
+  } */
+
+  nav {
+    flex-direction: column;
+    padding-top: 103px;
+  }
+  .menu-item {
+    flex-direction: column;
+    gap: 62px;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 78px;
+  }
+  .menu-item-link {
+    flex-direction: column;
+    gap: 36px;
+  }
 }
 
 /* tablet or medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  /* header related styles */
+
+  nav {
+    flex-direction: column;
+    padding-top: 120px;
+  }
+  .menu-item {
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .menu-item-link {
+    gap: 50px;
+  }
 }
