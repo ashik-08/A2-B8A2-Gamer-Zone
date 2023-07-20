@@ -86,13 +86,10 @@
     gap: 0px;
   }
   .instant-play-info {
+    text-align: center;
     margin-left: 0px;
   }
-  .instant-play-title {
-    text-align: center;
-  }
   .instant-play-description {
-    text-align: center;
     margin: 40px 0px;
   }
   .instant-play-images .img-1 {
@@ -106,6 +103,33 @@
     left: 20px;
   }
 
+  /* play online related styles */
+
+  .play-online-container {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .play-online-info {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .play-online-description {
+    margin: 40px 0px;
+  }
+  .play-online-images {
+    margin-left: 0px;
+  }
+  .play-online-images .img-1 {
+    width: 70%;
+    margin-left: 40px;
+  }
+  .play-online-images .img-2 {
+    width: 30%;
+    position: relative;
+    top: -105px;
+    left: 265px;
+  }
+
   /* different games related styles */
 
   .games-container {
@@ -115,10 +139,6 @@
 
   /* footer section styles */
 
-  .footer-container {
-    margin-top: 160px;
-    padding: 25px;
-  }
   .footer-description {
     flex-wrap: wrap;
   }
@@ -210,13 +230,10 @@
     gap: 0px;
   }
   .instant-play-info {
+    text-align: center;
     margin-left: 0px;
   }
-  .instant-play-title {
-    text-align: center;
-  }
   .instant-play-description {
-    text-align: center;
     margin: 60px 0px;
   }
   .instant-play-images .img-1 {
@@ -230,6 +247,33 @@
     left: 15px;
   }
 
+  /* play online related styles */
+
+  .play-online-container {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .play-online-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .play-online-description {
+    margin: 40px 0px;
+  }
+  .play-online-images {
+    margin: 0 auto;
+  }
+  .play-online-images .img-1 {
+    width: 80%;
+    margin-left: 25px;
+  }
+  .play-online-images .img-2 {
+    width: 35%;
+    position: relative;
+    top: -215px;
+    left: 485px;
+  }
+
   /* different games related styles */
 
   .games-container {
@@ -239,10 +283,6 @@
 
   /* footer section styles */
 
-  .footer-container {
-    margin-top: 200px;
-    padding: 100px 20px;
-  }
   .footer-description {
     flex-wrap: wrap;
   }
